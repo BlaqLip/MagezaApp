@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mageza App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--- intro logo --->
+  <div class="main-div">
+  <div id="splash">
+    <img src="mageza-logo.png" alt="Mageza Logo">
+    <h6>FAST. SAFE. LOCAL.</h6>
+  </div>
+  <!-- slide in menu -->
+<nav>
+		<div class="menu-btn">
+		<div class="line line--1"></div>
+		<div class="line line--2"></div>
+		<div class="line line--3"></div>
+	</div>
+  <!-- nav menu-->
+  <div class="nav-links">
+		<a href="admin.html" class="link">Admin</a>
+		<a href="driver.html" class="link">Driver</a>
+		<a href="passenger.html" class="link">Passenger</a>
+	</div>
+</nav>
+
+
+<div class="bg-img-indx">
+	<img src="G:\Development Stuff\Mageza App\mageza-logo.png">
+</div>
+
+<div class="input-boxes">
+<form class="register-form" id="registerr-Form">
+    <h2>Register</h2>
+    <input type="text" id="name" placeholder="Name & Surname" required>
+</br>
+    <label for="registering-candidate">Select User</label>
+</br>  
+    <select>
+        <option>Admin</option>
+        <option>Driver</option>
+        <option>Passenger</option>
+    </select>
+  </br>
+    <input type="text" id="contacts" placeholder="cell or email" required>
+  </br>
+    <button type="submit">register</button>
+    <p id="errorMessage" class="error-message"></p>
+  </form>
+ </div>
+  <script src="app.js"></script>
+</div>  
+</body>
+</html>
